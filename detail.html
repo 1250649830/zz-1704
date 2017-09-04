@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/detail.css" />
+<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+<script type="text/javascript" src="js/detail.js"></script>
+</head>
+<body>
+	<!--- 头部副导航 -->
+<div class="header-nav">
+  <div class="fast-nav">
+  	<div class="nav-left">
+    <a href="#" class="areaSellBtn"></a>
+           <div class="areaSell">               
+                <ul><li><a href="#">湖南</a> </li><li><a href="#">湖北</a> </li><li><a href="#">河南</a> </li><li><a href="#">江西</a> </li><li><a href="#">陕西</a> </li><li><a href="#">四川</a> </li><li><a href="#">贵州</a> </li><li><a href="#">云南</a> </li><li><a href="#">重庆</a> </li><li><a href="#">西藏</a> </li><li><a href="#">广东</a> </li><li><a href="#">广西</a> </li><li><a href="#" >海南</a> </li><li><a href="#">北京</a> </li><li><a href="#">河北</a> </li><li><a href="#">内蒙古</a> </li><li><a href="#">山西</a> </li><li><a href="#">天津</a> </li><li><a href="#">江苏</a> </li><li><a href="#">山东</a> </li><li><a href="#">上海</a> </li><li><a href="#">福建</a> </li><li><a href="#">浙江</a> </li><li><a href="#">安徽</a> </li><li><a href="#">辽宁</a> </li><li><a href="#">黑龙江</a> </li><li><a href="#">吉林</a> </li><li><a href="#">新疆</a> </li><li><a href="#">甘肃</a> </li><li><a href="#">宁夏</a> </li><li><a href="#">青海</a> </li></ul>
+                <span>送货到<a href="#" class="areaSellBtn"><i class="up"></i>北京</a></span>         
+            </div>
+           </div>
+          <div class="nav-right">
+          	  <div class="login">
+          	  	<a href="Login.html" target="_blank">欢迎来到乐蜂，请&nbsp;&nbsp;<span>登录</span>&nbsp;&nbsp;&nbsp;&nbsp;|</a>
+          	  	<a href="register.html" target="_blank"><span>免费注册</span></a>
+          	  </div>
+          	 <div class="mydingdan scrollx">
+          	 	<a href="#">我的订单
+          	 		<img class="arrow" src="images/arrow2.jpg" />
+          	 		<div class="wodedingdan scrolly" style="display: none;">
+          	 			<p>我的钱包</p>
+          	 			<p>我的礼券</p>
+          	 		</div>
+          	 	</a>
+          	 </div>
+          	 <div class="fastnav scrollx">
+          	 	<a href="#">快速导航
+          	 	<img class="arrow" src="images/arrow2.jpg" />
+          	 	<div class="fastnav scrolly" style="display: none;">
+          	 		<p>帮助中心</p>
+          	 		<p>商务合作</p>
+          	 		<p>联系客服</p>
+          	 	</div>
+          	 	</a>
+          	 </div>
+            <div class="collect">
+            	<a href="#">收藏乐蜂</a>
+            </div>
+            <div class="scrollx phone">
+            	<a href="#" class="mobile">手机乐蜂</a>
+            	<div class="mobilephone scrolly">
+            		<p>扫一扫，下载乐蜂客户端</p>
+            		<img src="images/wechat2.jpg" style="padding-left:16px;"/>
+            	</div>
+            </div>
+          </div>
+  </div>
+ </div>
+<script type="text/javascript">
+ 	$(document).ready(function(){
+	$(".scrollx").hover(function(){
+		$(this).find(".scrolly").stop().slideDown("fast");
+		$(this).find('.mobile').addClass('h');
+	},function(){
+		$(this).find(".scrolly").stop().slideUp("slow");
+		$(this).find('.mobile').removeClass('h');
+	});	
+});	
+ </script>
+ <!-- 头部logo -->
+<div class="header-wrap">
+  <div class="header">
+   <div id="logo">
+    <a href="#"><img src="images/logo.gif" title="乐蜂网" alt="lefeng"></a>
+   </div>
+    <div class="search">
+       	<form>
+           <input class="txt" type="text" value="面膜" onfocus="if (value =='面膜'){value =''}" onblur="if (value ==''){value='面膜'}" />
+           <input class="btn" type="button" value="搜索"/>
+          </form>
+       		<p>
+            	热搜：
+                <a href="#">面膜</a>							
+                <a href="#">护肤套装</a>
+                <a href="#">面部护肤</a>
+                <a href="#">洁面</a>
+                <a href="#">口红</a>
+          	</p>
+        </div>
+        <div id="shopping">
+        	<a href="cart.html" target="_blank">
+        		<span id="num">0</span>
+        	</a>
+        </div>                         
+   </div>
+</div>
+<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+<!--- 头部副导航 -->
+<div class="nav-wrap">
+ <div class="nav">
+  <div class="nav_l">
+                <a href="javascript:"> 商品分类 </a> <i></i>
+            </div>
+            <div class="nav-one">
+                <a href="#">首页</a>
+               </div>
+              <div class="nav-two">
+                <a href="javascript:;" target="_blank">蜂购全球</a>
+                </div>           
+            <div class="nav-r">
+                <a href="#" target="_blank"><img src="images/nav.jpg"></a>
+                <a href="#" target="_blank"><img src="images/nav1.jpg"></a>
+                <a href="#" target="_blank"><img src="images/nav2.jpg"></a>
+            </div>
+        </div>
+       </div>
+</div>
+
+<div class="mian-wrap">
+   <div class="main">
+   	<div class="main-top">
+   		<h2>自然堂（CHANDO）喜马拉雅舒缓水润深层修护面膜28片</h2><br />
+   		<p>珍珠精华复配雪莲花、透明质酸钠，深层滋润保湿，令肌肤呈现珍珠般明亮光泽</p>
+   	</div>
+   	<div class="main-bot">
+   		<div class="main-bot-l">
+   			<div class="preview">
+	       <div id="vertical" class="bigImg">
+		   <img src="img/mid-1.jpg" "width="400" height="400" alt="" id="midimg" />
+		   <div style="display:none;" id="winSelector"></div>
+	   </div>
+	   <div class="smallImg">
+		<div class="scrollbutton smallImgUp disabled"></div>
+		<div id="imageMenu">
+			<ul>
+				<li id="onlickImg"><img src="img/small-1.jpg" width="68" height="68"/></li>
+				<li><img src="img/small-2.jpg" width="68" height="68" </li>
+				<li><img src="img/small-3.jpg" width="68" height="68" </li>
+				<li><img src="img/small-4.jpg" width="68" height="68" </li>
+				<li><img src="img/small-2.jpg" width="68" height="68" </li>
+				<li><img src="img/small-3.jpg" width="68" height="68" </li>
+				<li><img src="img/small-1.jpg" width="68" height="68" </li>
+			</ul>
+		</div>
+		<div class="scrollbutton smallImgDown"></div>
+	 </div>	
+	 <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+   </div>
+       </div>
+       <div class="main-bot-r">
+       	<div class="main-bot-r-t">
+       	<h2>自然堂（CHANDO）喜马拉雅舒缓水润深层修护面膜28片（快速吸收 深层滋养补水）</h2>
+       	<br />
+       	<p>价格<span>￥<b>199.0</b></span></p>
+       	<br />
+       	<p>优惠<span>跨品牌满199减100 上不封顶</span><br/><span>全场满99包邮</span><br/><span>满199赠大礼包 不累计 赠完为止</span></p>
+       	<p>促销<span>此价格不与套装优惠同时享受</span><br/><span> 满199元减50元 </span><br/></p>
+        </div>
+        <div class="main-bot-r-b">
+        	<p>购买数量<em>-</em><input type="text" value="1"><em>+</em></p>
+        	<br />
+        	<a href="javascript:;" class="btn" onclick=""><span>加入购物车</span></a>
+        	
+        </div>
+       </div>
+       </div>
+  </div>
+</div>
+<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+
+<!--页尾--><!--页尾--><!--页尾-->
+<div class="footer-wrap">
+  <div class="footer_service">
+		<ul class="w1000">
+			<li class="li01" onclick="#">
+				<br />
+			</li>
+			<!--免运费-->
+			<li class="li02" onclick="#">
+				<br />
+			</li>
+			<!--全正品-->
+			<li class="li03" onclick="#">
+				<br />
+			</li>
+			<!--最放心-->
+		</ul>
+	</div>
+	<div class="footer-info">
+		<dl class="w1000">
+			<dt>
+				<strong></strong><em>客服 9:00-24:00</em> 
+			</dt>
+			<dd>
+				<strong>新手指南</strong>
+				 <a target="_blank" href="#">购物流程</a>
+				 <a target="_blank" href="#">优惠券规则</a> 
+				 <a target="_blank" href="#">联系客服</a>
+				 <a target="_blank" href="#">常见问题</a> 
+			</dd>
+			<dd>
+				<strong>付款方式</strong>
+				<a target="_blank" href="#">在线支付</a> 
+				<a target="_blank" href="#">货到付款</a> 
+				<a target="_blank" href="#">钱包支付</a> 
+			</dd>
+			<dd>
+				<strong>配送服务</strong> 
+				<a target="_blank" href="#">配送时效及运费</a>
+				 <a target="_blank" href="#">验货与签收</a> 
+			</dd>
+			<dd>
+				<strong>售后服务</strong> 
+				<a target="_blank" href="#">退货政策</a> 
+				<a target="_blank" href="#">退货流程</a>
+			    <a target="_blank" href="#">退款方式及时效</a> 
+			</dd>
+			<dd class="f-sao1">
+				<strong>乐蜂网微信</strong><b></b> 
+			</dd>
+		</dl>
+	</div>
+	<div class="footer-cr">
+	  <div class="footer-cr-a">
+		<a rel="nofollow" target="_blank" href="#">关于乐蜂</a> 
+		<a rel="nofollow" target="_blank" href="#">免责声明</a> 
+		<a rel="nofollow" target="_blank" href="#">隐私声明</a>
+		<a rel="nofollow" target="_blank" href="#">版权声明</a>
+		<a rel="nofollow" target="_blank" href="#">招聘信息</a> 
+	    <a rel="nofollow" target="_blank" href="#">联系我们</a> 
+		<a rel="nofollow" target="_blank" href="#">帮助中心</a>
+		<a rel="nofollow" target="_blank" href="#">友情链接</a> 
+		<br />
+		<span>Copyright <b>&copy;</b> 2008-2017 Lefeng.com All Rights Reserved.</span> <span>乐蜂（上海）信息技术有限公司</span> 
+		<a target="_blank" href="#">津ICP备15005555号-1</a>&nbsp;&nbsp;<span">京公网安备11010502014183</span> 
+		<a rel="nofollow" target="_blank" href="#">营业执照</a> <br />
+		<p>公司全称：天津品简电子商务有限公司     公司固话：400 000 1818     公司地址：天津市武清区京津电子商务产业园宏瑞道18号</p>
+		<div class="footer-cr-img">
+			
+			<a class="pjzxlm" rel="nofollow" target="_blank" href="#"></a>
+			<a class="kxwz" rel="nofollow" target="_blank" href="#"></a>
+			<a class="cxwz" rel="nofollow" target="_blank" href="#"></a>  
+			<a class="itrust" rel="nofollow" target="_blank" href="#"></a>
+			<a class="xfwq" rel="nofollow" href="#" target="_blank"></a> 
+		</div>
+	</p>
+</div> 
+</body>
+</html>

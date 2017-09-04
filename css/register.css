@@ -1,0 +1,87 @@
+.ban .register_content{
+	float: right;
+	background:#fff !important;
+	width: 420px;
+	height: 690px;
+	margin-top: 100px;
+    border-radius: 8px;
+}
+.register_title{
+	height: auto!important;
+	min-height: 40px;
+	margin-bottom: 20px;
+	padding: 25px 60px 0 60px;
+}
+.register_title span{
+	display: block;
+	color:#333;
+	font-size: 14px;
+	font-family: "Microsoft YaHei",微软雅黑;
+}
+.register_title span.tl{
+	width: 100px;
+	height: 36px;
+	font-size:24px;
+	float: left;
+}
+.register_title span.tr{
+	float: right;
+	background: none;
+	line-height: 38px;
+}
+.register_title a{
+	 color: #02b1cb;
+}
+.register_input{
+	width: 300px;
+	height: 565px;
+	float: left;
+	margin: 6px 60px 0 60px;
+}
+.register_input li{
+	padding: 14px 0;
+}
+.register_input li h2{
+	font-weight: 500;
+	line-height: 24px;
+}
+.register_input input{
+	width: 300px;
+	height: 32px;
+	outline: none;
+}
+.register_input input#yzm{
+	width: 147px;
+}
+
+li.yzm span input.sendSmsBtn {
+	width: 134px;
+	height: 38px;
+	float: right;
+	border: 1px solid #ff7c91;
+	border-radius: 4px;
+	outline: none;
+	background:#ff7c91;
+	color:#fff;
+}
+li.btn {
+	width: 300px;
+	height: 10px;
+	display: block;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+li.btn a {
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	padding-left: 100px;
+	line-height: 14px;
+	font-weight: bold;
+}
+li.msg a{
+	line-height: 50px;
+}
+input.sendSmsBtn:hover,.btn:hover{	
+	opacity: .8;	
+}

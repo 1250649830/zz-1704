@@ -1,0 +1,412 @@
+[
+	{
+		
+		"subNavLists": [
+			{
+				"subNavTit": "面膜",
+				"subNavList": [
+					"面贴膜",  
+					"免洗面膜", 
+					"眼膜 ", 
+					"泥膜 ",
+					"泡泡面膜",  
+					"鼻膜鼻贴"
+				]
+			},
+			
+			{
+				"subNavTit": "护肤套装",
+				"subNavList": [
+					"护肤套装"
+				]
+			},
+			{
+				"subNavTit": "面部护肤",
+				"subNavList": [
+					"面霜 ", 
+					"乳液 ", 
+					"爽肤水 ",
+					"精华",  
+					"喷雾"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{		
+		"subNavLists": [
+			{
+				"subNavTit": "底妆",
+				"subNavList": [
+					"BB霜",
+					"CC霜",  
+					"粉底液 ", 
+					"粉饼"  ,
+					"腮红 ",
+					"蜜粉散粉",  
+					"妆前乳"
+				]
+			},
+			{
+				"subNavTit": "美甲",
+				"subNavList": [
+					"指甲油 ", 
+					"卸甲水 ",
+					"指甲护理"
+				]
+			},
+			{
+				"subNavTit": "唇妆",
+				"subNavList": [
+					"唇彩",  
+					"唇蜜", 
+					"口红"
+				]
+			},
+			{
+				"subNavTit": "卸妆",
+				"subNavList": [
+					"卸妆水",  
+					"卸妆油", 
+					"卸妆乳 ", 
+					"眼唇卸妆"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	}
+]

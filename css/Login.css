@@ -1,0 +1,203 @@
+.Chead-wrap{background: #f3f3f3;}
+.Chead{
+	width:1000px;
+	height: 30px;
+	line-height: 30px;
+	margin:0 auto;
+	background: #f3f3f3;
+}
+.Chead ul{
+	float: right;
+}
+.Chead ul li{
+	float: left;
+	margin-right: 25px;;
+}
+.Chead ul li a{
+	font-size:12px;
+	color: #666;
+}
+.ban-wrap{
+	height: 790px;
+	background: #fbe1d3;
+}
+.ban{
+	width: 1000px;
+	height: 790px;
+	margin: 0 auto;
+	background: url(../images/login-bk.jpg) no-repeat center;
+	position: relative;
+}
+.ban img{
+	position: absolute;
+	top:10px;
+	left:2%;
+}
+.ban .login_content{
+	width: 420px;
+	height: 621px;
+	float: right;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #ccc;
+	margin-top: 100px;
+}
+.login_content .login_title{
+	height: 60px;
+	padding: 25px 60px 0 60px;
+	float: left;
+	margin-bottom: 20px;
+}
+.login_title span{
+	
+	font-family:  "Microsoft YaHei", 微软雅黑;
+	
+}
+.login_title .tl{
+	font-size: 24px;
+	color: #313131;
+}
+.login_title .tr{
+	float: right;
+	font-size: 14px;
+	line-height: 28px;
+	margin-top:5px;
+
+}
+.login_title a{	color:#02b1cb;line-height: 30px;}
+.login_input{
+	width: 300px;
+	height: 500px;
+	margin-top:50px ;
+}
+
+.login_input li h2{
+	line-height: 24px;
+	width: 300px;
+	font-weight: 500;
+	font-size:12px;
+}
+.login_input li{
+	height: 85px;
+	width: 300px;
+	clear: both;
+}
+.login_input li input{
+	width: 278px;
+	height: 33px;
+	border:1px solid #ccc;
+	font-size:12px;
+	font-weight: bold;
+	padding:0 10px;
+	outline: none;
+}
+
+}
+.newtips a{
+	float: right;
+	
+}
+.login_input .password h2{
+	width: 240px;
+	line-height: 30px;
+	float: left;
+}
+li#code.code{
+	margin-top: 10px;
+}
+li.code input{
+	width:125px;
+	height: 33px;
+	float: left;
+	margin-right: 4px;
+}
+li.button{
+	margin-top: 15px;
+	height: 40px;
+	margin-bottom: 15px;
+	background: #e53048;
+	border-radius: 6px;
+}
+li.button a{
+	width: 300px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size:16px;
+	line-height: 38px;
+	
+	letter-spacing: 16px;
+	color: #fff;
+}
+
+.ehong-idcode-val{
+	
+	position:relative;
+	top:0px;
+	padding-bottom: 17px;
+	display:inline;
+	cursor:pointer;
+	font-size:16px;
+	font-family:"Courier New", Courier, monospace;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ehong-idcode-val0{
+	border:solid 1px #A4CDED;	
+	background-color:#ECFAFB;
+}
+
+.ehong-idcode-val1{
+	border:solid 1px #A4CDED;	
+	background-color:#FCEFCF;
+}
+.ehong-idcode-val2{
+	border:solid 1px #6C9;	
+	background-color:#D0F0DF;
+}
+.ehong-idcode-val3{
+	border:solid 1px #6C9;	
+	background-color:#DCDDD8;
+}
+.ehong-idcode-val4{
+	border:solid 1px #6C9;	
+	background-color:#F1DEFF;
+}
+.ehong-idcode-val5{
+    
+	border:solid 1px #6C9;	
+	background-color:#ACE1F1;
+}
+ .ehong-code-val-tip{
+	font-size:12px;
+	color:#1098EC;
+    padding-left: 2px;
+	cursor:pointer;	
+}
+.partners{
+	width: 300px;
+	clear: both;
+	height: 85px;
+	float: left;
+	margin-top: 40px;
+}
+.partners p{
+	width: 300px;
+	height: 18px;
+	padding-bottom: 10px;
+}
+.partners .iconfont{
+	font-family: "iconfont" !important;
+    font-size:30px;
+    color:#1afa29;
+    font-style:normal;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+	
+}
+.partners a{
+	font-size:14px;
+	padding-right: 80px;
+}

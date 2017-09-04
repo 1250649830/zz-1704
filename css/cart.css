@@ -1,0 +1,114 @@
+body{background: #fff;}
+.header-wrap{height: 110px;}
+.account-wrap{
+	min-height: 200px;
+	background: #fff;
+    border-top:2px solid red;
+   
+}
+.account{
+	width: 1000px;
+	min-height: 200px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background: #fff;
+	margin:0 auto;
+}
+.account .account-top{
+	width: 1000px;
+	height: 40px;
+	border: 1px solid #eee;
+	border-left: none;
+	background:#f9f9f9;
+	margin: 50px auto 0;
+}
+.account-top p{
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	color:red;
+}
+.account-top .account-top-l{
+	border-left: 2px solid red;
+	width: 438px;
+	float: left;
+}
+.account-top .account-top-l p{
+	padding-left: 8px;
+}
+.account-top .account-top-r{
+	width: 560px;
+	float: left;
+}
+.account-top .account-top-r p{
+	float: left;
+	padding:0 56px;
+}
+.account-bot{
+	float: left;
+	width: 1000px;
+	min-height: 100px;
+}
+.account-bot li img{
+	width: 70px;
+	height: 100px;
+	float: left;
+}
+.account-bot li h2{
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 20px;
+	float: left;
+}
+.account-bot li h3{
+	width: 200px;
+	height: 100px;
+	font-size: 18px;
+	line-height: 100px;
+	color: red;
+	float: left;
+}
+.account-bot li h4{
+	position: relative;
+	float: left;
+	top:40px;
+	right: -225px;
+	cursor: pointer;
+	color: #000;
+}
+.account-bot em{
+	font-size:18px;
+	padding-left: 10px;	
+	cursor: pointer;
+}
+.account-bot li input{
+	padding-left: 10px;
+	margin-left:10px ;
+	width: 24px;
+	height: 12px;
+	padding-top:4px ;
+
+}
+.account-bot li{
+	width: 1000px;
+	height: 100px;
+	float: left;
+	border: 1px dashed #eee;
+}
+.account-bot ul li span{
+    width: 100px;
+    height:60px;
+    border: 1px solid #666;
+	font-size:16px;
+	padding: 4px 0;
+    position: relative;
+    top:40px;
+    right:100px;
+}
+
+.footer-wrap{
+	
+	border-top: 2px solid red;
+	margin-top: 80px;
+}

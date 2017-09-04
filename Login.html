@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/Login.css" />
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/jquery.idcode.js"></script>
+</head>
+<body>
+<div clss="Cheade-wrap">
+	<div class="Chead">
+	  <ul>
+	  	<li><a href="index.html" target="_blank">乐蜂首页</a></li>
+	  	<li><a href="#">快速导航</a></li>
+	  	<li><a href="#">收藏乐蜂</a></li>
+	  	<li><a href="#">手机乐蜂</a></li>
+	  </ul>
+		
+	</div>
+</div>
+
+<div class="ban-wrap">	
+	<div class="ban">
+	  <img src="images/new-logo.png"  />
+	  <div class="login_content">
+	  	 <div class="login_title">
+	  	 	<span class="tl">登录</span>
+	  	 	<span class="tr"><a id="reg_link" href="register.html" target="_blank">免费注册</a></span
+	  	 </div>
+	  	<ul class="login_input">
+	  		<li class="account">
+	  			<h2>账号</h2>
+	  			<input type="text" name="loginName" autocomplete="off" />
+	  			<div class="focus_text" id="loginNameSucessShow" style="display: block;">
+	  				请输入账号
+	  			</div>
+	  		 <li class="password">
+	  		 	<h2>密码</h2>
+	  		 	<div class="newtips">
+	  		 		<a href="#" target="_blank">忘记密码？</a>
+	  		 	</div>
+	  		 	<input type="password" name="passwd" id="passwd" />
+	  		 	<div class="focus_text" id="passwdSucessShow style="display:block;">请输入密码</div>
+	  		 </li>
+	  		 <li class="code" id="code">
+	  		 	<h2>验证码</h2>
+	  		 	<input type="text" name="code" id="code" maxlength="4" />
+	  		 	<div id="idcode">
+	  		 		<div id="ehong-code" class="ehong-idcode-val ehong-idcode-val5" href="#" onblur="return false" 
+	  		 			onfocus="return false" oncontextmenu="return false" onclick="$.idcode.setCode()">
+	  		 			<font color="#E69A2A">6</font>
+	  		 			<font color="#6B486E">4</font>
+	  		 			<font color="#D6A03C">w</font>
+	  		 			<font color="#780230">t</font>
+	  		 			<font color="#6B486E">5</font>  		 					  		 			
+	  		 		</div>
+	  		 		<span id="ehong-code-tip-ck" class="ehong-code-val-tip" onclick="$.idcode.setCode()">看不清？换一个</span>
+	  		 	</div>
+	  		 </li>
+	  		 <li class="button">
+	  		 	<a href="javascript:;" id="formSubmit">登录</a>	
+	  		 </li>
+	  		<li class="partners">
+	  			<p>合作网站账号登录</p>
+	  			<span class="iconfont">&#xe673;</span><a href="javaScript:;" id="weixinLogin">微信</a>
+	  			<span class="iconfont">&#xe73e;</span><a href="javaScript:;" id="qqLogin">QQ</a>
+	  			<span class="iconfont">&#xe613;</span><a href="javaScript:;" id="sinaLogin">新浪</a>
+	  			<span class="iconfont">&#xe63b;</span><a href="javaScript:;" id="alipayLogin">支付宝</a>
+	  			
+	  		</li>
+	  		</li>
+	  	</ul>
+	  	
+	  </div>
+	</div>
+</div>
+<script>
+			$.idcode.setCode();
+			
+			$("#formSubmit").click(function (){
+				var IsBy = $.idcode.validateCode(); 
+				alert(IsBy);
+				console.log(IsBy);
+			});
+</script>
+		
+		
+<div class="footer-info">
+		
+	<div class="footer-cr">
+	  <div class="footer-cr-a">
+		<a rel="nofollow" target="_blank" href="#">关于乐蜂</a> 
+		<a rel="nofollow" target="_blank" href="#">免责声明</a> 
+		<a rel="nofollow" target="_blank" href="#">隐私声明</a>
+		<a rel="nofollow" target="_blank" href="#">版权声明</a>
+		<a rel="nofollow" target="_blank" href="#">招聘信息</a> 
+	    <a rel="nofollow" target="_blank" href="#">联系我们</a> 
+		<a rel="nofollow" target="_blank" href="#">帮助中心</a>
+		<a rel="nofollow" target="_blank" href="#">友情链接</a> 
+		<br />
+		<span>Copyright <b>&copy;</b> 2008-2017 Lefeng.com All Rights Reserved.</span> <span>乐蜂（上海）信息技术有限公司</span> 
+		<a target="_blank" href="#">津ICP备15005555号-1</a>&nbsp;&nbsp;<span">京公网安备11010502014183</span> 
+		<a rel="nofollow" target="_blank" href="#">营业执照</a> <br />
+		<p>公司全称：天津品简电子商务有限公司     公司固话：400 000 1818     公司地址：天津市武清区京津电子商务产业园宏瑞道18号</p>
+		<div class="footer-cr-img">
+			
+			<a class="pjzxlm" rel="nofollow" target="_blank" href="#"></a>
+			<a class="kxwz" rel="nofollow" target="_blank" href="#"></a>
+			<a class="cxwz" rel="nofollow" target="_blank" href="#"></a>  
+			<a class="itrust" rel="nofollow" target="_blank" href="#"></a>
+			<a class="xfwq" rel="nofollow" href="#" target="_blank"></a> 
+		</div>
+	</font>
+</div> 
+</body>
+</html>
